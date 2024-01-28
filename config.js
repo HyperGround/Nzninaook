@@ -24,13 +24,14 @@ module.exports = {
             roleID: "1194623453484028004"
         }
     ],
-    welcomeMessage: "╭・✵・{member} joined the server
+    welcomeMessage: "
+╭・✵・{member} joined the server
 ●▬▬▬▬▬▬▬▬๑۩✰۩๑▬▬▬▬▬▬▬▬●
 ・{ID} for the ID of the member
 ・They were invited by **{mention}**
 ・who has {invites} invites
 ●▬▬▬▬▬▬▬▬๑۩✰۩๑▬▬▬▬▬▬▬▬●
-╰・✵・{code} for the invite used
-/* {member} joined the server. They were invited by **{inviter}** (who has {invites} invites).*/", // Use {inviter} for who invited the member, {member} for the member, {code} for the invite used, {mention} to mention the inviter, {ID} for the ID of the member, {inviterID} for the inviter's ID, and {invites} for the inviter's invites
+╰・✵・{code} for the invite used.",
+/* {member} joined the server. They were invited by **{inviter}** (who has {invites} invites).*/ // Use {inviter} for who invited the member, {member} for the member, {code} for the invite used, {mention} to mention the inviter, {ID} for the ID of the member, {inviterID} for the inviter's ID, and {invites} for the inviter's invites
     leaveMessage: "{member} left the server. They were invited by **{inviter}** (who has ${invites} invites).", // Use {inviter} for who invited the member, {member} for the member, {mention} to mention the inviter, {ID} for the ID of the member, {inviterID} for the inviter's ID, and {invites} for the inviter's invites
 }
