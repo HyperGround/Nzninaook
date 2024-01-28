@@ -24,9 +24,7 @@ module.exports = {
             roleID: "1194623453484028004"
         }
     ],
-    welcomeMessage: "
-
-╭・✵・{member} joined the server
+    welcomeMessage: "╭・✵・{member} joined the server
 ●▬▬▬▬▬▬▬▬๑۩✰۩๑▬▬▬▬▬▬▬▬●
 ・{ID} for the ID of the member
 ・They were invited by **{mention}**
