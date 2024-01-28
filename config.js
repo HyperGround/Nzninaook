@@ -24,11 +24,11 @@ pmodule.exports = {
             roleID: "1194623453484028004"
         }
     ],
-    welcomeMessage: "**╭ ・ ⌬ ・"emoji9" {member} joined.
+    welcomeMessage: "**╭ ・ ⌬ ・${client.emoji.emoji9} {member} joined.
 ●▬▬▬▬▬▬▬▬๑۩✰۩๑▬▬▬▬▬▬▬▬●
-✰・Invited by "emoji9" **{inviter}**
-✰・They have now "emoji9" {invites} invites
+✰・Invited by ${client.emoji.emoji9} **{inviter}**
+✰・They have now "${client.emoji.emoji9} {invites} invites
 ●▬▬▬▬▬▬▬▬๑۩✰۩๑▬▬▬▬▬▬▬▬●
-╰ ・ ⌬ ・"Notifcation" BOT STATION COMMUNITY**", // Use {inviter} for who invited the member, {member} for the member, {code} for the invite used, {mention} to mention the inviter, {ID} for the ID of the member, {inviterID} for the inviter's ID, and {invites} for the inviter's invites
+╰ ・ ⌬ ・${client.emoji.Notifcation} BOT STATION COMMUNITY**", // Use {inviter} for who invited the member, {member} for the member, {code} for the invite used, {mention} to mention the inviter, {ID} for the ID of the member, {inviterID} for the inviter's ID, and {invites} for the inviter's invites
     leaveMessage: "{member} left the server. They were invited by **${inviter}** (who has ${invites} invites).", // Use {inviter} for who invited the member, {member} for the member, {mention} to mention the inviter, {ID} for the ID of the member, {inviterID} for the inviter's ID, and {invites} for the inviter's invites
 }
