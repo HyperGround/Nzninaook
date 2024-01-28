@@ -1,4 +1,4 @@
-module.exports = {
+pmodule.exports = {
     prefix: "&",
     welcomeChannel: "1192515563809935480",
     slashCommands: true,
@@ -24,7 +24,7 @@ module.exports = {
             roleID: "1194623453484028004"
         }
     ],
-    welcomeMessage: "**╭ ・ ⌬ ・<:emoji49:1201151756491563060> {member} joined.
+    welcomeMessage: "**╭ ・ ⌬ ・"emoji9" {member} joined.
 ●▬▬▬▬▬▬▬▬๑۩✰۩๑▬▬▬▬▬▬▬▬●
 ✰・Invited by "emoji9" **{inviter}**
 ✰・They have now "emoji9" {invites} invites
